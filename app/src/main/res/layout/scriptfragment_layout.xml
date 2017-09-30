@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.87"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/regAddr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="3"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Script Text"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/logNote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:gravity="top|left"
+            android:text="please add your note here"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveAction"
+            style="@style/ButtonGreen"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="@dimen/layout_margin_script_btn"
+            android:focusable="true"
+            android:text="@string/action_save" />
+
+        <Button
+            android:id="@+id/clearAction"
+            style="@style/ButtonGreen"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="@dimen/layout_margin_script_btn"
+            android:text="@string/action_clear" />
+
+        <Button
+            android:id="@+id/deleteAction"
+            style="@style/ButtonGreen"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_margin="@dimen/layout_margin_script_btn"
+            android:text="@string/action_delete" />
+
+        <Button
+            android:id="@+id/loadAction"
+            style="@style/ButtonGreen"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="@dimen/layout_margin_script_btn"
+            android:text="@string/action_load" />
+
+        <Button
+            android:id="@+id/helpAction"
+            style="@style/ButtonGreen"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_margin="@dimen/layout_margin_script_btn"
+            android:text="@string/action_help" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

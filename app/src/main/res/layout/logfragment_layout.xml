@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.10"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/loglistView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/item_list_divider"
+            android:divider="@color/item_list_divider"
+            android:dividerHeight="5dp"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+</LinearLayout>

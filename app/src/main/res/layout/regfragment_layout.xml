@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_output_valtage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_output_valtage"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_output_valtage"
+                        android:text="@string/output_valtage"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_switch_mode_and_bypass_control"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_switch_mode_and_bypass_control"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_switch_mode_and_bypass_control"
+                        android:text="@string/switch_mode_and_bypass_control"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_high_reso_output_voltage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_high_reso_output_voltage"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_high_reso_output_voltage"
+                        android:text="@string/high_reso_output_voltage"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_fault_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_fault_status"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_fault_status"
+                        android:text="@string/fault_status"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_rffe_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_rffe_status"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_rffe_status"
+                        android:text="@string/rffe_status"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_group_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_group_id"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_group_id"
+                        android:text="@string/group_id"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_power_mode_and_trigger"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_power_mode_and_trigge"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_power_mode_and_trigge"
+                        android:text="@string/power_mode_and_trigger"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_product_id"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_product_id"
+                        android:text="@string/product_id"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_manufacturer_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_manufacturer_id"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_manufacturer_id"
+                        android:text="@string/manufacturer_id"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_user_programmable_slave_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_user_programmable_slave_id"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_user_programmable_slave_id"
+                        android:text="@string/user_programmable_slave_id"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+
+                <RelativeLayout
+                    android:id="@+id/re_device_revision"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_reg_re"
+                    android:background="@drawable/btn_list_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_re">
+
+                    <ImageView
+                        android:id="@+id/iv_device_revision"
+                        android:layout_width="@dimen/layout_height_reg_re_iv"
+                        android:layout_height="@dimen/layout_marginLeft_reg_re_iv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/registers_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/layout_marginLeft_reg_re_tv"
+                        android:layout_toRightOf="@id/iv_device_revision"
+                        android:text="@string/device_revision"
+                        android:textColor="#353535"
+                        android:textSize="@dimen/textSize_reg_re_tv" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reg_margin_height"
+                    android:background="#dadada" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ebebeb"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.10">
+
+            <ListView
+                android:id="@+id/reglistView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/item_list_divider"
+                android:divider="@color/item_list_divider"
+                android:dividerHeight="5dp"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    -->

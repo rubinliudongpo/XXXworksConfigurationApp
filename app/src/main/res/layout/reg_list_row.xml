@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/regAddr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="3"
+                android:drawablePadding="5dp"
+                android:text="Reg Address"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/regName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="3"
+                android:text="Reg Name"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/regData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:text="Reg Data"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+                <TextView
+                    android:id="@+id/tv_bit7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit7"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit7_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT7"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit6"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit6_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT6"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit5"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit5_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT5"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit4"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit4_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT4"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit3"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit3_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT3"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit2"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit2_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT2"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit1"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit1_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT1"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/re_bit0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_reg_item_rv"
+                android:background="@drawable/btn_list_item_bg"
+                android:clickable="true"
+                android:padding="@dimen/padding_reg_item_rv">
+
+
+                <TextView
+                    android:id="@+id/tv_bit0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/paddingLeft_reg_item_tv"
+                    android:text="@string/bit0"
+                    android:textColor="#353535"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+
+                <Button
+                    android:id="@+id/bit0_btn"
+                    style="@style/ButtonGreen"
+                    android:layout_width="@dimen/layout_width_reg_item_rv_btn"
+                    android:layout_height="@dimen/height_reg_item_rv_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/marginRight_reg_item_rv_btn"
+                    android:gravity="center"
+                    android:text="BIT0"
+                    android:textSize="@dimen/textSize_reg_item_tv" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#dadada" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
