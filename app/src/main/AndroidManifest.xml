@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.skyworks.android.skyworksapp">
+    package="com.skyworks.android.xxxworksapp">
 
     <application
         android:allowBackup="true"
@@ -16,27 +16,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.skyworks.android.skyworksapp.activity.ControlActivity"
+            android:name="com.skyworks.android.xxxworksapp.activity.ControlActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan"></activity>
         <activity
-            android:name="com.skyworks.android.skyworksapp.activity.TriggerActivity"
+            android:name="com.skyworks.android.xxxworksapp.activity.TriggerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan"></activity>
         <activity
-            android:name="com.skyworks.android.skyworksapp.activity.DevicestatusActivity"
+            android:name="com.skyworks.android.xxxworksapp.activity.DevicestatusActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan"></activity>
         <activity
-            android:name="com.skyworks.android.skyworksapp.activity.LogdataActivity"
+            android:name="com.skyworks.android.xxxworksapp.activity.LogdataActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan"></activity>
         <activity
-            android:name="com.skyworks.android.skyworksapp.activity.RegActivity"
+            android:name="com.skyworks.android.xxxworksapp.activity.RegActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan"></activity>

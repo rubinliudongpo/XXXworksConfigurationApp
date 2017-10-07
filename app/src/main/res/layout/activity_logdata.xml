@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:background="#EBEBEB"
     android:orientation="vertical"
-    tools:context="com.skyworks.android.skyworksapp.activity.LogdataActivity">
+    tools:context="com.skyworks.android.xxxworksapp.activity.LogdataActivity">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/container_body"
-        android:name="com.skyworks.android.skyworksapp.fragment.LogFragment"
+        android:name="com.skyworks.android.xxxworksapp.fragment.LogFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible" />
