@@ -16,7 +16,7 @@ import com.skyworks.android.xxxworksapp.R;
 import com.skyworks.android.xxxworksapp.activity.option.ControlOptions;
 
 /**
- * Created by dongpo on 2/22/2016.
+ * @author dongpo on 2/22/2016.
  */
 public class ControlActivity extends Activity implements OnClickListener {
 
@@ -748,7 +748,6 @@ public class ControlActivity extends Activity implements OnClickListener {
     }
 
     public void back(View view) {
-
         finish();
     }
 }
